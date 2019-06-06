@@ -40,7 +40,7 @@ function clb_enqueue_custom_scripts() {
 
 
 
-require 'path/to/plugin-update-checker/plugin-update-checker.php';
+require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/tomatillodesign/custom-gutenberg-blocks',
 	__FILE__, //Full path to the main plugin file or functions.php.
