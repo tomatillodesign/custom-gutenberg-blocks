@@ -5,7 +5,7 @@
  * Description: Adds 6 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, Bootstrap Modals and Bootstrap Collapse (created via create-guten-block)
  * Author: Chris Liu-Beers, Tomatillo Design
  * Author URI: https://www.tomatillodesign.com/
- * Version: 1.0.1
+ * Version: 1.0.2
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  *
