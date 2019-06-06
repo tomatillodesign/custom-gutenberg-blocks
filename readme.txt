@@ -29,5 +29,8 @@ Please contact me at https://www.tomatillodesign.com/.
 
 == Changelog ==
 
+= 1.0.1 =
+* Test for automatic update feature
+
 = 1.0 =
 * Combine all blocks and test for working status
