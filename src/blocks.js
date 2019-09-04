@@ -21,8 +21,12 @@ import './button-grid/block.js';
 import './cards/block.js';
 import './cardset/block.js';
 
-// Modal (Bootstrap)
+// Modal Button (Bootstrap)
 import './modal/block.js';
+
+// Modal Cardset (Bootstrap)
+import './modal-cardset/block.js';
+import './modal-card/index.js';
 
 // Collapse (Bootstrap)
 import './collapse/index.js';

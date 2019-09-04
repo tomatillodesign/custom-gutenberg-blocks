@@ -9,11 +9,11 @@ Requires PHP: 7+
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds 6 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, Bootstrap Modals and Bootstrap Collapse (created via create-guten-block)
+Adds 7 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, Bootstrap Modal Buttons, Bootstrap Modal Cards, and Bootstrap Collapse (created via create-guten-block)
 
 == Description ==
 
-Once installed, this plugin will allow you to use these 6 new blocks in the WordPress editor
+Once installed, this plugin will allow you to use these 7 new blocks in the WordPress editor
 
 == Installation ==
 
@@ -28,6 +28,9 @@ Once installed, this plugin will allow you to use these 6 new blocks in the Word
 Please contact me at https://www.tomatillodesign.com/.
 
 == Changelog ==
+
+= 1.1 =
+* Add new Bootstrap Modal Cards block *
 
 = 1.0.2 =
 * Add new Roadmap section to plugin
