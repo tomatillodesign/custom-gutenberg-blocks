@@ -29,6 +29,10 @@ Please contact me at https://www.tomatillodesign.com/.
 
 == Changelog ==
 
+= 1.1.1 =
+* Fixed collapse card not working *
+* Updated automatic updates to latest version *
+
 = 1.1 =
 * Add new Bootstrap Modal Cards block *
 

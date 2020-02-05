@@ -17,7 +17,7 @@ const {
 const {
     //InspectorControls, RichText, ColorPalette,
     InspectorControls, RichText, PanelColorSettings, InnerBlocks,
-} = wp.editor;
+} = wp.blockEditor;
 const {
      Toolbar,
     Button,
@@ -117,15 +117,7 @@ export default registerBlockType(
                         value={ icon }
                         onChange={ onChangeIcon }
                     />
-                    <PanelColorSettings
-                         title={'Background Color'}
-                         colorValue={ backgroundColor }
-                     >
-                         <ColorPalette
-                             value={ backgroundColor }
-                             onChange={ backgroundColor => setAttributes( { backgroundColor } ) }
-                         />
-                     </PanelColorSettings>
+
                      <PanelColorSettings
                          title={'Background Color'}
                          colorSettings={[
@@ -158,7 +150,7 @@ export default registerBlockType(
                     </div>
                ) : (
                   <div className="collapse-static">
-                       <div className="title-area" style={ { backgroundColor: backgroundColor } }>{title} <span class="dashicons dashicons-arrow-down-alt2"></span></div>
+                       <div className="title-area" style={ { backgroundColor: backgroundColor } }>{title} <span className="dashicons dashicons-arrow-down-alt2"></span></div>
                        <div className="inner-block-content">
                          <InnerBlocks />
                        </div>
@@ -183,11 +175,11 @@ export default registerBlockType(
                     if( icon == '' ) { iconToPublish = null; }
 
                     return (
-                         <div class="clb-collapse-area">
-                         <a class="collapse-section collapsed" data-toggle="collapse" href={"#" + titleID} aria-expanded="false" aria-controls="button-title-here">
-                         <div class={`collapse-button-area foreground-text-${getContrastYIQ(backgroundColor)}` } style={ {backgroundColor: backgroundColor} }>{iconToPublish}<div className="collapse-title-input">{title}</div><span class="dashicons down dashicons-arrow-down-alt2"></span><span class="dashicons up dashicons-arrow-up-alt2"></span></div></a>
-                              <div class="collapse" id={titleID}>
-                                   <div class="collapse-text collapse-content-body">
+                         <div className="clb-collapse-area">
+                         <a className="collapse-section collapsed" data-toggle="collapse" href={"#" + titleID} aria-expanded="false" aria-controls="button-title-here">
+                         <div className={`collapse-button-area foreground-text-${getContrastYIQ(backgroundColor)}` } style={ {backgroundColor: backgroundColor} }>{iconToPublish}<div className="collapse-title-input">{title}</div><span className="dashicons down dashicons-arrow-down-alt2"></span><span className="dashicons up dashicons-arrow-up-alt2"></span></div></a>
+                              <div className="collapse" id={titleID}>
+                                   <div className="collapse-text collapse-content-body">
                                         {content}
                                         <InnerBlocks.Content />
                                    </div>
