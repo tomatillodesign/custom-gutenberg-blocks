@@ -134,7 +134,7 @@ export default registerBlockType(
 
                  </InspectorControls>,
 
-                <div className={ className } >
+                <div className={"clb-collapse-area " + className} >
                 { isSelected ? (
                      <div>
                      <div className ={ className + "-selected-title" } >
@@ -160,7 +160,7 @@ export default registerBlockType(
            ];
         },
         save: props => {
-                    const { attributes: { title, content, backgroundColor, titleID, icon } } = props;
+                    const { attributes: { title, content, backgroundColor, titleID, icon }, className } = props;
 
                     function getContrastYIQ(hexcolor){
 
@@ -175,7 +175,7 @@ export default registerBlockType(
                     if( icon == '' ) { iconToPublish = null; }
 
                     return (
-                         <div className="clb-collapse-area">
+                         <div className={"clb-collapse-area " + className}>
                          <a className="collapse-section collapsed" data-toggle="collapse" href={"#" + titleID} aria-expanded="false" aria-controls="button-title-here">
                          <div className={`collapse-button-area foreground-text-${getContrastYIQ(backgroundColor)}` } style={ {backgroundColor: backgroundColor} }>{iconToPublish}<div className="collapse-title-input">{title}</div><span className="dashicons down dashicons-arrow-down-alt2"></span><span className="dashicons up dashicons-arrow-up-alt2"></span></div></a>
                               <div className="collapse" id={titleID}>
