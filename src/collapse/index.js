@@ -175,7 +175,7 @@ export default registerBlockType(
                     if( icon == '' ) { iconToPublish = null; }
 
                     return (
-                         <div className={"clb-collapse-area " + className}>
+                         <div className={"clb-collapse-area"}>
                          <a className="collapse-section collapsed" data-toggle="collapse" href={"#" + titleID} aria-expanded="false" aria-controls="button-title-here">
                          <div className={`collapse-button-area foreground-text-${getContrastYIQ(backgroundColor)}` } style={ {backgroundColor: backgroundColor} }>{iconToPublish}<div className="collapse-title-input">{title}</div><span className="dashicons down dashicons-arrow-down-alt2"></span><span className="dashicons up dashicons-arrow-up-alt2"></span></div></a>
                               <div className="collapse" id={titleID}>
