@@ -2,14 +2,14 @@
 Contributors: tomatillodesign
 Donate link: https://www.tomatillodesign.com/
 Tags: gutenberg, blocks, block editor
-Requires at least: 4.9
-Tested up to: 5.2.1
-Stable tag: 4.9
+Requires at least: 5.0
+Tested up to: 5.3.2
+Stable tag: 5.0
 Requires PHP: 7+
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds 7 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, Bootstrap Modal Buttons, Bootstrap Modal Cards, and Bootstrap Collapse (created via create-guten-block)
+Adds 8 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, People, Bootstrap Modal Buttons, Bootstrap Modal Cards, and Bootstrap Collapse
 
 == Description ==
 
@@ -28,6 +28,9 @@ Once installed, this plugin will allow you to use these 7 new blocks in the Word
 Please contact me at https://www.tomatillodesign.com/.
 
 == Changelog ==
+
+= 1.2 =
+* Added new People cards (based on Interactive Cardset) *
 
 = 1.1.1 =
 * Fixed collapse card not working *
