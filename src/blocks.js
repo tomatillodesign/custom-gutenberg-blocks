@@ -21,6 +21,10 @@ import './button-grid/block.js';
 import './cards/block.js';
 import './cardset/block.js';
 
+// People - no links at all, just plain info
+import './person/block.js';
+import './people/block.js';
+
 // Modal Button (Bootstrap)
 import './modal/block.js';
 
