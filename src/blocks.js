@@ -25,6 +25,10 @@ import './cardset/block.js';
 import './person/block.js';
 import './people/block.js';
 
+// PeopleFlip - no links at all, just plain info
+import './personFlip/block.js';
+import './peopleFlip/block.js';
+
 // Modal Button (Bootstrap)
 import './modal/block.js';
 

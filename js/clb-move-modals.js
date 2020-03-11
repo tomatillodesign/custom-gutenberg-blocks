@@ -28,3 +28,32 @@ function moveModals() {
 
 
 moveModals();
+
+
+
+
+
+function setFlipCardHeights() {
+
+     console.log('setFlipCardHeights 12:42p');
+     let elementList = document.querySelectorAll('.wp-block-cgb-people-flip');
+     console.log(elementList.length);
+
+     for (let i = 0; i < elementList.length; i++) {
+
+       console.log(elementList[i]);
+       let personFlips = elementList[i].querySelectorAll('.wp-block-cgb-person-flip');
+       let flipperHeight = elementList[i].dataset.cardHeight;
+       console.log(flipperHeight);
+
+       for (let j = 0; j < personFlips.length; j++) {
+            let singlePersonFlip = personFlips[j];
+            console.log(singlePersonFlip);
+            console.log("This cards height: " + flipperHeight);
+            singlePersonFlip.setAttribute("style", "height:" + flipperHeight + "px;");
+       }
+
+     }
+
+}
+setFlipCardHeights();

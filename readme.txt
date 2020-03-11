@@ -5,11 +5,11 @@ Tags: gutenberg, blocks, block editor
 Requires at least: 5.0
 Tested up to: 5.3.2
 Stable tag: 5.0
-Requires PHP: 7+
+Requires PHP: 7.2+
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds 8 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, People, Bootstrap Modal Buttons, Bootstrap Modal Cards, and Bootstrap Collapse
+Adds 9 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, People, People Flip, Bootstrap Modal Buttons, Bootstrap Modal Cards, and Bootstrap Collapse
 
 == Description ==
 
@@ -29,15 +29,18 @@ Please contact me at https://www.tomatillodesign.com/.
 
 == Changelog ==
 
+= 1.3 =
+* Added new People Flip cards (based on Interactive Cardset Flip cards)
+
 = 1.2 =
-* Added new People cards (based on Interactive Cardset) *
+* Added new People cards (based on Interactive Cardset)
 
 = 1.1.1 =
-* Fixed collapse card not working *
-* Updated automatic updates to latest version *
+* Fixed collapse card not working
+* Updated automatic updates to latest version
 
 = 1.1 =
-* Add new Bootstrap Modal Cards block *
+* Add new Bootstrap Modal Cards block
 
 = 1.0.2 =
 * Add new Roadmap section to plugin

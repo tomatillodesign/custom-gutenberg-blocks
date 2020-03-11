@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Custom Editor Blocks
  * Plugin URI: https://www.tomatillodesign.com/
- * Description: Adds 8 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, People, Bootstrap Modal Buttons, Bootstrap Modal Cards, and Bootstrap Collapse
+ * Description: Adds 9 new editor blocks: Callouts, Icon Cards, Button Grids, Interactive Cardsets, People, People Flip, Bootstrap Modal Buttons, Bootstrap Modal Cards, and Bootstrap Collapse
  * Author: Chris Liu-Beers, Tomatillo Design
  * Author URI: https://www.tomatillodesign.com/
- * Version: 1.2
+ * Version: 1.3
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  *
