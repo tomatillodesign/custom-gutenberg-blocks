@@ -29,6 +29,9 @@ Please contact me at https://www.tomatillodesign.com/.
 
 == Changelog ==
 
+= 1.3.1 =
+* CSS grid fix for People Flip cards
+
 = 1.3 =
 * Added new People Flip cards (based on Interactive Cardset Flip cards)
 

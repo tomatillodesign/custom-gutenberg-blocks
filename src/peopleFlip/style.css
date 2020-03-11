@@ -1,4 +1,4 @@
-.interactive-cardset {
+.people-cards {
      display: grid;
      column-gap: 20px;
      grid-row-gap: 20px;
@@ -7,15 +7,15 @@
 
 @media only screen and (min-width: 769px) {
 
-     .interactive-cardset.columns-2 {
+     .people-cards.columns-2 {
           grid-template-columns: 1fr 1fr;
      }
 
-     .interactive-cardset.columns-3 {
+     .people-cards.columns-3 {
           grid-template-columns: 1fr 1fr 1fr;
      }
 
-     .interactive-cardset.columns-4 {
+     .people-cards.columns-4 {
           grid-template-columns: 1fr 1fr;
      }
 
@@ -23,7 +23,7 @@
 
 @media only screen and (min-width: 1160px) {
 
-     .interactive-cardset.columns-4 {
+     .people-cards.columns-4 {
           grid-template-columns: 1fr 1fr 1fr 1fr;
      }
 
